@@ -33,7 +33,7 @@ const Footer = () => {
             <p style={styles.description}>Expert in API development and cloud architecture.</p>
           </div>
           <div style={styles.teamMember}>
-            <img src="frontend.jpg" alt="Frontend Developer" style={styles.image} />
+            <img src="Sima.jpg" alt="Frontend Developer" style={styles.image} />
             <h3 style={styles.teamRole}>Frontend Developer</h3>
             <p style={styles.description}>Focuses on creating intuitive and responsive user interfaces.</p>
           </div>

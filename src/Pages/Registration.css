@@ -1,0 +1,121 @@
+/* Main Registration Container */
+.registration-container {
+  background: url('https://i.postimg.cc/DzcfrHG8/blur-background-of-pub-restaurant-with-wood-table-628137314-2125x1416.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Inner Container */
+.registration-inner {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  border-radius: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+/* Header Section */
+.RegistrationBox1 {
+  background-color: #6c63ff;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Form Section */
+.RegistrationBox2 {
+  padding: 20px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Labels and Inputs */
+.question{
+  font-size: 1.1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.RegistrationInput {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.RegistrationInput:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+/* Submit Button */
+.RegistrationSubmitBtn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.RegistrationSubmitBtn:hover {
+  background-color: #0b79d0;
+  cursor: pointer;
+}
+
+/* Link to Login */
+h2 a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Text */
+.last-in-box {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+/* Container for Questions */
+.container-questions {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .registration-inner {
+      width: 90%;
+  }
+}

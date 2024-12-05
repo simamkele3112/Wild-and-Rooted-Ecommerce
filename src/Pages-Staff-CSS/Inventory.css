@@ -1,0 +1,19 @@
+.InventoryBox1{
+    border: 1px solid black;
+    height: 5rem;
+}
+.InventoryBox2{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+.InventoryBoxes1{
+    border: 1px solid black;
+    height: 50rem;
+}
+
+.InventoryBoxes2{
+    border: 1px solid black;
+    height: 50rem;
+}

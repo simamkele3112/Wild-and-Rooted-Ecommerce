@@ -1,0 +1,344 @@
+.HomesBox1{
+    width: 100%;
+    height: 5rem;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomesBox2{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+/*Titles*/
+.HomesBoxe1{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.HomesBoxe2{
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.HomesBoxe3{
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.HomesBoxes1{
+    width: 100%;
+    border: 2px solid black;
+    height: 3rem;
+    background-color: blue;
+    color: white;
+}
+/*Content - Tables*/
+.HomesBoxes2{
+    width: 100%;
+    height: 10rem auto;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+.Orders-Table{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.Orders-Button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+}
+.OrdersHelp{
+    text-align: center;
+    display: flex;
+    position: fixed;
+    justify-content: center; /*Hori*/
+    align-items: center; /*Vert*/
+    z-index: 1000; /*keeps it fixed*/
+}
+.OrdersHeading{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+.OrdersText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    z-index: 1000; /*keeps it fixed*/
+}
+.Extrabtn{
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    box-shadow: 2rem -1rem 1rem 2rem grey none;
+}
+.OrderHelpBtn{
+    display: flex;
+    justify-self: end;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 3rem;
+    position: fixed;
+    top: 40rem;
+    right: 2rem;
+    background-color: black;
+    box-shadow: 0 0 2rem #615858;
+    color: white;
+    z-index: 1000; /*keeps it fixed*/
+}
+.OrdersHelp{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.HelpBox{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    margin-left: 50rem;
+    justify-content: center; /*Hori*/
+    z-index: 1000; /*keeps it fixed*/
+}
+.HelpHeading{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
+.HelpText{
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 2rem;
+    background-color: white;
+    z-index: 1000; /*keeps it fixed*/
+    font-size: 1.2rem;
+    position: fixed;
+}
+.CloseHelp{
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem;
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    border: none; 
+    border-radius: 3rem; 
+}
+
+.OrderAdds{
+    display: flex;
+    justify-content: center;
+}
+.HelpBtn{
+    display: flex;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 2rem #000877;
+    position: fixed;
+    top: 85%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /*keeps it fixed*/
+}
+.ExtraBtnsGrid{
+    display: grid;
+    grid-template-columns: 30% 40% 20% 10%;
+    justify-content: center;
+    align-items: center;
+}
+.OrdersBtn1{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /*keeps it fixed*/
+}
+.OrdersBtn2{
+    grid-column: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /*keeps it fixed*/
+}
+.AddOrderBtn{
+    grid-column: 3;
+    display: flex;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: green;
+    box-shadow: 0 0 2rem #0af53d;
+    position: fixed;
+    top: 45rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /*keeps it fixed*/
+}
+
+.AddOrderBox{
+    text-align: center;
+    display: flex;
+    justify-content: center; /*Hori*/
+    align-items: center; /*Vert*/
+    z-index: 1000; /*keeps it fixed*/
+}
+.AddOrderText{
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 2rem;
+    background-color: white;
+    z-index: 1000; /*keeps it fixed*/
+    font-size: 1.2rem;
+    position: fixed;
+}
+textarea{
+    text-align: center;
+    background-color: white;
+}
+.AddOrdersBtn{
+    margin-top: 2rem;
+    border-radius: 2rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: green;
+    color: white
+}
+
+.OrderBox{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start; /*Horizontal shift*/
+    justify-items: start;
+}
+.OrderHeading{
+    text-decoration: underline;
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+}
+.OrdersLabel{
+    display: flex;
+    flex-direction: column;
+}
+.OrderClose{
+    position: absolute; 
+    top: 1rem; 
+    right: 1rem;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    border: none; 
+    border-radius: 3rem; 
+}
+
+.OrderArrowBtn{
+    border: 1px solid black;
+    border-radius: 10rem;
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    display: flex;
+    align-self: end;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+}
+.OrdersList{
+    display: flex;
+    flex-direction: column;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.OrderLists{
+    display: flex;
+    flex-direction: column;
+}
+.DropDownOrdersList{
+    width: auto auto;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.CheckboxOr{
+    width: 2rem;
+    height: 2rem;
+}
+
+.OrderItems{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid grey;
+}
+
+.tableBox{
+    background-color: black;
+
+}
+
+.AddOrderContainer {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centering content inside the container */
+    position: fixed; /* Fixes it to the viewport */
+    top: 50%; /* Position it 50% from the top */
+    left: 50%; /* Position it 50% from the left */
+    width: 40%;
+    transform: translate(-50%, -50%); /* This shifts the container by its own width/height */
+    z-index: 1000; /* Ensures it's on top of other content */
+  }
+.OrderOptions{
+    width: auto;
+    height: 4%;
+    font-size: 1.2rem;
+    text-align: center;
+}

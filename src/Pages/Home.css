@@ -1,0 +1,196 @@
+/* Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Hero.css */
+.hero {
+    background-image: url('/images/healthy-restaurants-cover.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 15px 25px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2em;
+    }
+  
+    .hero-content p {
+      font-size: 1.2em;
+    }
+  
+    .btn {
+      font-size: 1em;
+      padding: 12px 22px;
+    }
+  }
+
+  /* About.css */
+.about {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 2em;
+    }
+  
+    .about p {
+      font-size: 1em;
+    }
+  }
+  
+  /* MenuHighlights.css */
+.menu-highlights {
+  background: url('/images/menu-background.jpg') no-repeat center center/cover;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.menu-item {
+  width: 30%;
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    width: 100%; /* Stack the items on smaller screens */
+  }
+
+  .menu-list {
+    justify-content: center;
+  }
+}
+
+/* Testimonials.css */
+.testimonials {
+    padding: 40px 20px;
+    background: url('/images/08kg6xhb.png');
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .testimonials .testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6); /* Adjust the opacity as needed */
+  transition: transform 0.3s ease;
+  }
+  
+  .testimonials .testimonial:hover {
+    transform: scale(1.05);
+  }
+  
+  .testimonials h4 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Footer.css */
+/* Footer.css */
+.footer {
+  background-color: #0c3f21e5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5em;
+}
+
+.social-links a:hover {
+  color: #133a28; /* Changes color on hover */
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-links a {
+    margin: 0 15px;
+  }
+}

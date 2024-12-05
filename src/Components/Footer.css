@@ -1,0 +1,56 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: right;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds spacing between links */
+  margin-top: 15px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  color: #ff6347; /* Hover color for links */
+}
+
+.section {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border-top: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ccc;
+}

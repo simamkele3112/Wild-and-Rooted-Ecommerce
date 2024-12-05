@@ -1,0 +1,118 @@
+/* Navbar Container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo and Text */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navbar Links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  /* Link Styles */
+  .nav-links .link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Active/Hovered Link */
+  .nav-links .link:hover,
+  .nav-links .link.active {
+    background-color: #ff6347;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Cart Icon */
+  .cart-icon {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .cart-icon:hover {
+    color: white; /* Change icon color on hover */
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+    list-style: none;
+  }
+  
+  /* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    z-index: 10;
+    border-radius: 8px;
+    display: none;
+    transition: opacity 0.3s ease, visibility 0s 0.3s;
+  }
+  
+  /* Show dropdown when active */
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+  
+  /* Dropdown Item Styles */
+  .dropdown-item {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-size: 1.1rem;  /* Slightly larger text for visibility */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-bottom: 1px solid #f1f1f1;  /* Light border between items */
+  }
+  
+  /* Hover on Dropdown Item */
+  .dropdown-item:hover {
+    background-color:#ff6347;  /* Green background on hover */
+    color: white;  /* White text on hover */
+  }
+  
+  /* Active Item (Optional) */
+  .dropdown-item.active {
+    background-color: #333;  /* Dark background for active item */
+    color: white;  /* White text for active item */
+  }
+  
+  /* Add Padding to Last Item for Visual Balance */
+  .dropdown-item:last-child {
+    border-bottom: none;  /* Remove bottom border for the last item */
+  }
+  
